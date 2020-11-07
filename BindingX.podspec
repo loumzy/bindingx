@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors      = {
-                     "hjhcn" =>"380050803@qq.com"
+                     "loumzy" =>"715778159@qq.com"
                    }
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
 
   s.source =  { :path => '.' }
-  s.source   = { :git => 'https://github.com/alibaba/bindingx.git', :tag => s.version }
+  s.source   = { :git => 'https://github.com/loumzy/bindingx.git', :tag => s.version }
   s.source_files  = "core/ios/BindingX/**/*.{h,m,mm}" , "weex/ios/Sources/*.{h,m,mm}"
   
   s.requires_arc = true

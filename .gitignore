@@ -6,6 +6,7 @@ npm-debug.log
 */.idea/*
 .vscode
 .idea/
+.framework/
 
 ######################### ignore for iOS ##############################
 # Created by https://www.gitignore.io/api/objective-c
